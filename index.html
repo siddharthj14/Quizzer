@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Create Quiz</h1>
+        <label for="quiz-title"><strong>Quiz Title:</strong></label>
+        <input type="text" id="quiz-title">
+        <div id="questions-container">
+            <div class="question">
+                <label for="question1">Question 1:</label>
+                <input type="text" id="question1">
+                <label for="answer1">Options:</label>
+                <input type="radio" class="correct-answer" name="correct_answer_1">
+                <input type="text" class="answer" name="answers_1" id="answer1_1" placeholder="Option 1">
+                <input type="radio" class="correct-answer" name="correct_answer_1">
+                <input type="text" class="answer" name="answers_1" id="answer1_2" placeholder="Option 2">
+                <input type="radio" class="correct-answer" name="correct_answer_1">
+                <input type="text" class="answer" name="answers_1" id="answer1_2" placeholder="Option 3">
+                <input type="radio" class="correct-answer" name="correct_answer_1">
+                <input type="text" class="answer" name="answers_1" id="answer1_2" placeholder="Option 4">
+            </div>
+            
+            
+        </div>
+        <button id="add-question">Add Question</button>
+        <button id="submit-quiz">Create Quiz</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
+
